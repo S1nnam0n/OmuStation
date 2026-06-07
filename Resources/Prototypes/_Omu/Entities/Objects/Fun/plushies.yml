@@ -829,8 +829,7 @@
     soundHit:
       collection: Squishes
 
-
-  - type: entity
+- type: entity
   parent: BasePlushie
   id: PlushieNeph
   name: nephele silktongue plushie
