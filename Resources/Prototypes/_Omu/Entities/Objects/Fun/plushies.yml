@@ -828,3 +828,44 @@
     wideAnimationRotation: 180
     soundHit:
       collection: Squishes
+
+
+      - type: entity
+  parent: BasePlushie
+  id: PlushieNeph
+  name: nephele silktongue plushie
+  description: Distant echoes of gunfire rings through your head looking at this adorable, albeit slightly disfigured plushie.
+  components:
+  - type: Sprite
+    sprite: _Omu/Objects/Fun/Plushies/nephele.rsi
+    state: icon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: Clothing
+    quickEquip: false
+    sprite: _Omu/Objects/Fun/Plushies/nephele.rsi
+    slots:
+    - HEAD
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: MothPlushie
