@@ -1,1 +1,15 @@
-
+{
+    "version": 1,
+    "license": "CC-BY-NC-SA-3.0",
+    "copyright": "Using the Moth Plushie base, edited by S1nnam0n on discord.",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": 
+    [
+        {
+            "name": "icon"
+        }        
+    ]
+}
